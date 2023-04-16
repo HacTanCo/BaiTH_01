@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.container{
+    display: flex;
+}
+.menu{
+    flex-grow: 1;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    padding-right: 20%;
+    padding-top: 1%;
+    
+}
+.menu ul li{
+    padding: 0px 1%;
+    font-size: 17px;
+}
+.banner{
+    width: 100%;
+}
+.nha{
+    display: flex;
+    justify-content: center;
+
+}
+.nha1,.nha2,.nha3,.nha4{
+    position: relative;
+}
+.vp, .bt, .ch, .np{
+    font-size: 20px;
+    position: absolute;
+    top: 75%;
+    left: 28%;
+}
+.congty1,.congty2,.congty3{
+    position: relative;
+}
+.nm,.sr,.gt{
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    color: aliceblue;
+    font-size: 25px;
+}
+.chu{
+    font-size: 30px;
+    padding: 2% 0% 2% 20%;
+}
+.congty{
+    display: flex;
+    justify-content: center;
+    padding-bottom:2% ;
+}
+.vanban{
+    background-color: #FFF206;
+}
+.vanban .vanban1{
+    display: flex;
+
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0% 1% 0%;
+    
+    
+}
+.vanban1 li{
+   padding-right: 9%;
+   margin-left:3%;
+}
